@@ -29,9 +29,22 @@
 		94263B652E5396C700843E26 /* MeetingTranscribeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingTranscribeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		94263B792E539AFB00843E26 /* Exceptions for "MeetingTranscribe" folder in "MeetingTranscribe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 94263B4C2E5396C200843E26 /* MeetingTranscribe */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		94263B4F2E5396C200843E26 /* MeetingTranscribe */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				94263B792E539AFB00843E26 /* Exceptions for "MeetingTranscribe" folder in "MeetingTranscribe" target */,
+			);
 			path = MeetingTranscribe;
 			sourceTree = "<group>";
 		};
@@ -398,7 +411,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetingTranscribe/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Used to transcribe my microphone when selected.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app transcribes meetings to text for note-taking.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -423,7 +439,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetingTranscribe/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Used to transcribe my microphone when selected.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app transcribes meetings to text for note-taking.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

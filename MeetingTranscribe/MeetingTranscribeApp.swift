@@ -6,12 +6,21 @@
 //
 
 import SwiftUI
+import AppKit
 
 @main
 struct MeetingTranscribeApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra("Transcribe", systemImage: "waveform") {
+            VStack(alignment: .leading, spacing: 10) {
+                Text("Meeting Transcribe").font(.headline)
+                // (We’ll add Start/Stop controls next step)
+                Divider()
+                Button("Quit") { NSApplication.shared.terminate(nil) }
+            }
+            .padding(12)
+            .frame(width: 260)
         }
     }
 }
+
